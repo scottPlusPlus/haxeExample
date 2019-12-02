@@ -1,0 +1,4 @@
+-lib utest
+-cp src
+-main Main
+-js bin/js/main.js
