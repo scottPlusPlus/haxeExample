@@ -8,6 +8,7 @@ class Tests {
   public static function Run() {
     var runner = new Runner();
     runner.addCase(new TestStuff());
+    runner.addCases(macros.tests);
     Report.create(runner);
     runner.run();
   }
